@@ -16,10 +16,10 @@ Marketing Automation solution that allows you to automate processes on your webs
 
     """,
 
-    'author': "Odoosoft",
-    'email': 'support@odoosoft.com',
-    'website': "https://odoosoft.com",
-    'maintainer': 'Odoosoft',
+    'author': "OdooCS",
+    'email': 'info@odoocs.com',
+    'website': "https://odoocs.com",
+    'maintainer': 'Odoocs',
     'category': 'Discuss',
     'version': '1.0',
     'depends': ['base_setup'],
