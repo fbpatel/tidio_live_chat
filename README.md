@@ -1,4 +1,4 @@
-# tidio_live_chat
+# Tidio Live Chat
 
 
  "Live Chat for Sales"
