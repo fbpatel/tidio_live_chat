@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <template id="front_asset_extend" inherit_id="web.assets_common" name="Tidio Live Chat Odoo Backend ">
+        <xpath expr="." position="inside">
+            <t t-set="tidio_url" t-value="request.env['ir.config_parameter'].sudo().get_param('tidio_scrip_url', '')"/>
+            <t t-if="tidio_url">
+                <t t-raw="tidio_url"/>
+            </t>
+            <script type="text/javascript" src="/tidio_live_chat/static/src/js/tidio.js"></script>
+        </xpath>
+    </template>
+</odoo>

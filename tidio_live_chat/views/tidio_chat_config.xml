@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="res_config_settings_view_form_tidio" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.tidio</field>
+        <field name="model">res.config.settings</field>
+        <field name="type">form</field>
+        <field name="inherit_id" ref="base_setup.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='oauth']" position="after">
+                <div class="col-12 col-lg-6 o_setting_box">
+                    <div class="o_setting_right_pane">
+                        <label for="tidio_script"/>
+                        <div>
+                            <field name="tidio_script" style="width:100%" placeholder="&lt;script src=&quot;//code.tidio.co/xxxx...js&quot;&gt;&lt;/script&gt;"/>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>
